@@ -1,0 +1,39 @@
+[
+  {
+    "name": "predict_gender",
+    "description": "Predict gender from a first name using global data. Returns predicted gender, probability (0–1), and sample size.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "First name to predict gender for."
+        }
+      },
+      "required": [
+        "name"
+      ]
+    }
+  },
+  {
+    "name": "predict_gender_country",
+    "description": "Predict gender from a first name in a specific country (e.g., \"US\", \"FR\", \"DE\"). Returns gender, probability, and regional sample size.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "First name to predict gender for."
+        },
+        "country_code": {
+          "type": "string",
+          "description": "ISO 3166-1 alpha-2 country code (e.g. \"US\", \"GB\", \"DE\") to localize the prediction."
+        }
+      },
+      "required": [
+        "name",
+        "country_code"
+      ]
+    }
+  }
+]
