@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-genderize",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Genderize MCP — gender prediction from first name (genderize.io, free, no auth)",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "genderize",
     "gatewaySlug": "genderize",
-    "sourceHash": "v1-dce1b7e8792ffbaac427d0868f4fac25b7b436c11bde2a4cf22977a98f704238",
-    "sourceCommit": "bb047243cf27f32453103de186b8e6a8b6a1ce79"
+    "sourceHash": "v1-54182f3fc3ee6f21a3b4d3d21edb943a0e2e28ef33b3680542c0dd813d2cb6c8",
+    "sourceCommit": "030233f6b150a38a44421f88a5fcbad123f0fea8"
   }
 }
